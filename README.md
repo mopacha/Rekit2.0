@@ -4,9 +4,9 @@
  <img src="http://rekit.js.org/images/logo_text_2.0.png?raw=true?raw=true" width="300"> 
 
 > [Rekit 2.0 出了很棒的新功能!](https://medium.com/@nate_wang/rekit-2-0-next-generation-react-development-ce8bbba51e94)
-
+>
 > 文章翻译来自：[http://rekit.js.org/](http://rekit.js.org/)
-
+>
 > 本文翻译未经授权不得转载或转载请注明出处
 
 ## 前言
