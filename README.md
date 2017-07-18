@@ -36,7 +36,7 @@ Rekit创建应用程序遵循一般的最佳实践，创建的应用程序具有
  **2. Rekit portal**:它是一个新的开发工具，附带了Rekit 2.0。它不仅提供了用于创建/重命名/移动/删除Rekit应用的web UI，而且还提供了用于分析/构建/测试Rekit应用的测试工具，你可以将Rekit portal视为React开发的IDE。参见在线演示： [https://rekit-portal.herokuapp.com](https://rekit-portal.herokuapp.com)
 
 
-下面是两个快速视频演示(需要翻墙):
+下面是两个简短视频演示(需要翻墙):
 
 1. [计数器](https://youtu.be/HT6YzZtbPKc): 花费1分钟创建一个简单计数器！
 
@@ -954,3 +954,28 @@ Rekit在`tools/server.js`集成了打包过程，用`npm start`即可运行。�
 Rekit使用ESlint对代码质量进行检查。并将[airbnb javascript guide](https://github.com/airbnb/javascript)作为所有代码的基本规则。`.eslintrc`定义了一些细微的变化用于Rekit应用程序的不同部分。
 
 似乎规则表明airbnb经常改变，对于一个新创建的Rekit应用程序，可能有一些eslint错误，您需要更新代码或添加自己的规则以清除这些错误。
+
+
+## 总结
+
+本文介绍了Rekit工具，通过Rekit工具构建基于React+Redux +React-router的可扩展Web应用，遵循前端开发的最佳实践。
+
+**其核心思想是**：
+
+- 以功能（feature）为单位组件文件夹结构，
+
+- 每个 action 单独文件的模式。
+
+- 使用 React-router 来让单页应用（SPA）也拥有传统 Web 应用的 URL 导航功能
+
+**优点**：
+
+- 代码更加模块化
+
+- 降低了功能模块间的耦合行
+
+- 应用结构更加清晰直观。
+
+>更多的工具介绍可以访问其官网：[http://rekit.js.org](http://rekit.js.org/)。
+>
+> 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
